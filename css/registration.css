@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&family=Roboto&display=swap");
+.registration_area {
+	min-height: 600px;
+	width: 100%;
+	background-color: rgb(0, 35, 71);
+	color: white;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: none;
+}
+.rg-right {
+	width: 100%;
+	height: 100%;
+	padding-right: 80px;
+	padding-left: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.form {
+	background: white;
+	height: 380px;
+	width: 330px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+}
+
+.rg-left {
+	height: 100%;
+	/* width: 100%; */
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+	padding: 50px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.rg-left-text {
+	color: white;
+}
+.courses-for-free {
+	font-size: 25px;
+	font-weight: 700;
+	font-family: "Noto Sans", sans-serif;
+}
+.its-high-time {
+	font-size: 15px;
+	font-weight: 600;
+	color: rgba(4, 0, 57, 0.316);
+	margin-bottom: 40px;
+}
+.name,
+.phnum,
+.emaill {
+	height: 50px;
+	width: 100%;
+	border: 0;
+	border-bottom: rgba(0, 0, 0, 0.075) 1px solid;
+	outline: 0;
+	font-size: 13px;
+	padding: 0px 16px;
+	margin-bottom: 10px;
+}
+.phnum::-webkit-outer-spin-button,
+.phnum::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+.submit-btn {
+	margin-top: 20px;
+	width: 100%;
+	height: 60px;
+	color: rgb(0, 35, 71);
+	background-color: rgb(255, 193, 7);
+
+	font-size: 13px;
+	border: rgb(255, 193, 7) 2px solid;
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+	font-weight: 600;
+}
+.submit-btn:hover {
+	border: rgb(0, 35, 71) 2px solid;
+	color: rgb(255, 193, 7);
+	background-color: rgb(0, 35, 71);
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+.register-now {
+	font-size: 45px;
+	font-weight: bold;
+}
+.there-is-a {
+	margin-top: 25px;
+	font-size: 15px;
+	font-weight: 500;
+}
+.rg-left-time {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: flex-start;
+
+	margin-top: 70px;
+	/* background-color: green; */
+}
+.days,
+.hours,
+.mins,
+.secs {
+	height: 115px;
+	width: 140px;
+	border: white 1px solid;
+	padding: 10px;
+	border-radius: 8px;
+	color: white;
+	background-color: rgba(245, 245, 220, 0.168);
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+	/* margin-left: 5px; */
+	margin-right: 12px;
+}
+.suffix-time {
+	font-size: 16px;
+	padding-left: 5px;
+	font-weight: 500;
+}
+.num {
+	font-size: 35px;
+	font-weight: bolder;
+}
+@media screen and (max-width: 1220px) {
+	.registration_area {
+		grid-template-columns: none;
+		grid-template-rows: auto auto;
+	}
+	.rg-left-time {
+		width: 100%;
+		justify-content: center;
+	}
+	.days,
+	.hours,
+	.mins,
+	.secs {
+		margin-right: 12px;
+		margin-left: 12px;
+		/* margin: 0; */
+	}
+	.rg-right {
+		width: 100%;
+		height: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.form {
+		width: 600px;
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.form {
+		width: 500px;
+		margin-bottom: 20px;
+	}
+	.rg-left {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.days,
+	.hours,
+	.mins,
+	.secs {
+		height: 115px;
+		width: 120px;
+		margin-right: 5px;
+		margin-left: 5px;
+		margin-top: 5px;
+	}
+	.rg-left-time {
+		width: 100%;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+}
+@media screen and (max-width: 496px) {
+	.form {
+		width: 400px;
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 396px) {
+	.form {
+		width: 350px;
+		margin-bottom: 20px;
+	}
+}
