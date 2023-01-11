@@ -1,28 +1,28 @@
 const trainers = document.getElementById("trainer-list");
 const trainer_list = [
 	{
-		image: "/Static/trainers/t1.jpg",
+		image: "../Static/trainers/t1.jpg",
 		name: "Mated Nithan",
 		designation: "Sr. web designer",
 		text: `If you are looking at blank cassettes on the web, you may be
 very confused at the.`,
 	},
 	{
-		image: "/Static/trainers/t2.jpg",
+		image: "../Static/trainers/t2.jpg",
 		name: "David Cameron",
 		designation: "Sr. web designer",
 		text: `If you are looking at blank cassettes on the web, you may be
         very confused at the.`,
 	},
 	{
-		image: "/Static/trainers/t3.jpg",
+		image: "../Static/trainers/t3.jpg",
 		name: "Jain Redmel",
 		designation: "Sr. Faculty Data Science",
 		text: `If you are looking at blank cassettes on the web, you may be
         very confused at the.`,
 	},
 	{
-		image: "/Static/trainers/t4.jpg",
+		image: "../Static/trainers/t4.jpg",
 		name: "Nathan Macken",
 		designation: "Sr. web designer",
 		text: `If you are looking at blank cassettes on the web, you may be
